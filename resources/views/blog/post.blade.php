@@ -57,37 +57,11 @@
 
     <div class="bg-success p-2 text-dark bg-opacity-25 mb-5">
         <h1 class="text-center">
-            Your Post Create
+            YOUR POST
         </h1>
     </div>
 
-    <section class="d-flex justify-content-center mt-5">
 
-
-
-        <div class="border d-flex justify-content-center p-4 shadow-lg p-3 mb-5 bg-body rounded" style="width: 40%">
-            <form action="/store" style="width: 80%">
-                <div class="text-center">
-
-                    <h2>Insert From</h2>
-                </div>
-                <div class="mb-3">
-                    <label for="date" class="form-label">Date :</label>
-                    <input type="date" class="form-control" id="date" name="date">
-                </div>
-                <div class="mb-3">
-                    <label for="title" class="form-label">Title :</label>
-                    <input type="text" class="form-control" id="title" name="title">
-                </div>
-                <div class="mb-3">
-                    <label for="details" class="form-label">Details :</label>
-                    <input type="text" class="form-control" id="details" name="details">
-                </div>
-
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">

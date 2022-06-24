@@ -37,7 +37,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active ms-5" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active ms-5" aria-current="page" href="/">Home</a>
                         <a class="nav-link ms-5 " href="#">Post</a>
                         <a class="nav-link ms-5" href="#">Blog</a>
                     </div>
@@ -147,6 +147,7 @@
                     <div class="col-5 border me-5 mt-5 p-2 p-3 mb-2 bg-light text-dark shadow p-3 mb-5 bg-body rounded">
 
                         <div class="card-block">
+                            <img class="img-fluid" src="assets/img/demopic/7.jpg" alt=""><br>
                             <h2 class="card-title"><a href="#" class="text-decoration-none">{{ $post->title }}</a>
                             </h2>
                             <h4 class="card-text">{{ $post->details }}</h4><br><br><br>
@@ -154,12 +155,12 @@
 
 
                                 <a href="author"><img class="author-thumb"
-                                        src="https://www.gravatar.com/avatar/e56154546cf4be74e393c62d1ae9f9d4?s=250&amp;d=mm&amp;r=x"
-                                        alt="Sal"></a>
+                                        src="https://th.bing.com/th/id/OIP.Cpglax39NYh9qadx1VC45AAAAA?pid=ImgDet&w=340&h=340&rs=1"
+                                        alt=""></a>
 
 
                                 <span>{{ $post->date }}</span><br>
-                                <p>{{ $post->user_name }}</p>
+
 
 
 
@@ -175,7 +176,7 @@
         </div>
         </section>
         <!-- End Featured
-	================================================== -->
+	{{-- ================================================== -->
 
         <!-- Begin List Posts
 	================================================== -->
@@ -413,7 +414,7 @@
         <!-- End Footer
 	================================================== -->
 
-        </div>
+        </div> --}}
         <!-- /.container -->
 
         <!-- Bootstrap core JavaScript
